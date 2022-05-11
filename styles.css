@@ -1,0 +1,21 @@
+#board {
+  margin: auto;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: black;
+}
+
+.slot {
+  position: relative;
+  padding: 80px;
+  background-color: white;
+}
+
+.slot svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
